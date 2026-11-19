@@ -1,0 +1,28 @@
+:root { 
+    --primary: #1F5C4C;
+    --background: #F4F6F5;
+    --text: #1E2420;
+    --white: #FFFFFF;
+    --amber: #F2A900;
+    --field-border:#7A858D;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    color: var(--text);
+    background: var(--background);
+
+}
+
+header {
+    background: var(--primary);
+    color: var(--white);
+    padding: 16px;
+
+}
+
+main {
+    padding: 16px;
+}
