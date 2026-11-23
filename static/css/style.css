@@ -5,6 +5,7 @@
     --white: #FFFFFF;
     --amber: #F2A900;
     --field-border:#7A858D;
+    --error: #B42318;
 }
 
 body {
@@ -56,4 +57,13 @@ input:focus-visible, button:focus-visible {
     outline: 2px solid var(--primary);
     outline-offset: 2px;
     
+}
+
+.error { 
+    background: #FDECEA;
+    color: var(--error);
+    border-left: 4px solid var(--error);
+    padding: 8px 12px;
+    border-radius: 4px;
+    max-width: 320px;
 }
