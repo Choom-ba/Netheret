@@ -21,7 +21,9 @@ header {
     background: var(--primary);
     color: var(--white);
     padding: 16px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
@@ -66,4 +68,24 @@ input:focus-visible, button:focus-visible {
     padding: 8px 12px;
     border-radius: 4px;
     max-width: 320px;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+nav a{
+    color:var(--white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset:2px;
 }
